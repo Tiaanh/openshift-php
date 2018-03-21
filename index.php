@@ -5,7 +5,7 @@
  <body>
  <?php 
   $hostname = gethostname();
-  echo '<p>Hello, I am running on container $hostname</p>' ; 
+  print "<p>Hello, I am running on container $hostname</p>" ; 
  ?> 
  </body>
 </html>
