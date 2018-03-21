@@ -4,7 +4,7 @@
  </head>
  <body>
  <?php 
-  for ($x = 0; $x <= 10; $x++) {
+  for ($x = 0; $x <= 1000; $x++) {
   } 
   $hostname = gethostname();
   print "<p>I am version 3 and running on container - $hostname</p>" ; 
