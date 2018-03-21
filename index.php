@@ -3,7 +3,9 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Hello, I am running on container </p>' ; ?> 
- <?php echo gethostname() ; ?> 
+ <?php 
+  $hostname = gethostname();
+  echo '<p>Hello, I am running on container $hostname</p>' ; 
+ ?> 
  </body>
 </html>
