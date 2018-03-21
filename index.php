@@ -7,7 +7,7 @@
   for ($x = 0; $x <= 10; $x++) {
   } 
   $hostname = gethostname();
-  print "<p>Hello, I am running on container - $hostname</p>" ; 
+  print "<p>I am version 1 and running on container - $hostname</p>" ; 
  ?> 
  </body>
 </html>
