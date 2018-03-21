@@ -3,6 +3,7 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Hello World 2</p>'; ?> 
+ <?php echo '<p>Hello, I'm running on container </p>'; ?> 
+ <?php echo gethostname() ; ?> 
  </body>
 </html>
